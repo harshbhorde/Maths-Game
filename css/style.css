@@ -1,0 +1,131 @@
+html{
+
+height: 100%;
+background: linear-gradient(white);
+
+}
+#container
+{
+height:400px;
+width:550px;
+background-color: lightblue;
+margin: 150px auto;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 0px 0px #009de4;
+position: relative;
+}
+#score{
+
+background-color: yellowgreen;
+color:black;
+position:absolute;
+left: 500px;
+padding:10px;
+box-shadow:0px 4px 0px 0px yellow;
+}
+#correct{
+position: absolute;
+left: 225px;
+background-color: #42e252;
+color:white;
+padding: 10px;
+display:none;
+}
+#wrong{
+    position: absolute;
+    left: 225px;
+    background-color:red;
+    color:white;
+    padding: 10px;
+    display:none;
+    }
+#question{
+width: 450px;
+height:130px;
+background-color:#9da2ea;
+margin: 50px auto 10px auto;
+font-size: 100px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+box-shadow:black;
+
+}
+#instruction{
+width: 450px;
+height: 50px;
+background-color: #8481d9;
+margin: 15px auto;
+text-align: center;
+line-height: 40px;
+box-shadow: 0px 2px 0px 0px #8153a8;
+font-size: 20px;
+font-weight: bold;
+
+}
+#choice{
+
+width:450px ;
+height: 80px;
+margin: 3px auto;
+
+}
+.box{
+width: 85px;
+height: 85px;
+background-color: white;
+float: left;
+margin-right: 36px;
+border-radius: 5px;
+box-shadow: 0px 4px 0px 0px black;
+cursor: pointer;
+text-align: center;
+line-height: 70px;
+transition: all 0.2s;
+}
+#box4{
+margin-right: 0px;
+
+}
+.box:hover,#start:hover{
+
+background-color: #8153a8;
+
+}
+#start{
+
+width: 85px;
+background-color: white;
+margin: 27px auto;
+padding: 5px;
+border-radius: 3px;
+text-align: centre;
+box-shadow:3px 3px 3px 3px rgba(0,0,0,0.2);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+transition: all 0.2s;
+}
+#timer{
+width: 150px;
+background-color: rgba(181,235,36,0.8);
+position: absolute;
+padding: 10px;
+left:400px;
+top: 385px;
+text-align: center;
+border-radius: 3px;
+display: none;
+}
+#gameover{
+height: 200px;
+width: 500px;
+background:linear-gradient(wheat,orange);
+color: black;
+text-align: center;
+font-size: 40px;
+position: absolute;
+top: 100px;
+left: 50px;
+z-index: 2;
+display: none;
+}
